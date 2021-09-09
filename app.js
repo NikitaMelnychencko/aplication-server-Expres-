@@ -6,6 +6,8 @@ const express = require('express')
 const exhbs = require('express-handlebars');
 const products = require('./products.json');
 
+const PORT = process.env.PORT || 4444;
+
 //Creates our express server
 const app = express();
 
@@ -42,6 +44,6 @@ app.get('/product/:productId', (req, res) => {
   res.render('product',{product})
 })
 //=============================================
-app.listen(4444, () => {
+app.listen(PORT, () => {
   console.log(`Application server is running on port ${4444}`);
 })
