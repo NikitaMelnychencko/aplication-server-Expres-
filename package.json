@@ -1,0 +1,26 @@
+{
+  "name": "aplication-server-expres-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikitaMelnychencko/aplication-server-Expres-.git"
+  },
+  "author": "NikitaMelnychencko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikitaMelnychencko/aplication-server-Expres-/issues"
+  },
+  "homepage": "https://github.com/NikitaMelnychencko/aplication-server-Expres-#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
